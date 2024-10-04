@@ -37,7 +37,7 @@ RUN { \
 
 RUN a2enmod rewrite
 
-meal-volume /var/www/html
+VOLUME /var/www/html
 
 ENV TASTYIGNITER_VERSION 3.4.0
 
