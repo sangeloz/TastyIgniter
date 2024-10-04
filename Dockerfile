@@ -37,7 +37,7 @@ RUN { \
 
 RUN a2enmod rewrite
 
-Mount Path Path /var/www/html
+meal-volume /var/www/html
 
 ENV TASTYIGNITER_VERSION 3.4.0
 
